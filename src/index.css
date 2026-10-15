@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-sm text-slate-800 dark:bg-slate-900 dark:text-slate-100;
+}
+
+@layer components {
+  .panel {
+    @apply min-w-0 rounded-xl border border-slate-200 bg-white p-2.5 dark:border-slate-700 dark:bg-slate-800;
+  }
+}
